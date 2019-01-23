@@ -285,3 +285,52 @@ x11-libs/libvdpau abi_x86_32
 # required by dev-libs/libgit2-0.26.8::gentoo[libressl,curl]
 # required by kde-frameworks/ktexteditor-5.54.0::gentoo[git]
 # required by kde-apps/kopete-18.12.1::gentoo
+# required by media-sound/pulseaudio-12.2::gentoo[systemd]
+# required by mail-client/thunderbird-bin-60.4.0-r1::gentoo[pulseaudio]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/systemd-239-r3 abi_x86_32
+# required by kde-plasma/plasma-workspace-5.14.5::gentoo[systemd]
+# required by kde-plasma/plasma-meta-5.14.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/dbus-1.10.24 user-session
+# required by sys-apps/systemd-239-r3::gentoo[lz4]
+# required by virtual/udev-217::gentoo
+# required by net-wireless/bluez-5.50-r1::gentoo[udev]
+# required by net-misc/networkmanager-1.14.4::gentoo[bluetooth]
+# required by kde-plasma/plasma-meta-5.14.5::gentoo[networkmanager]
+# required by @selected
+# required by @world (argument)
+>=app-arch/lz4-1.8.2 abi_x86_32
+# required by sys-apps/systemd-239-r3::gentoo[pam]
+# required by virtual/udev-217::gentoo
+# required by net-wireless/bluez-5.50-r1::gentoo[udev]
+# required by net-misc/networkmanager-1.14.4::gentoo[bluetooth]
+# required by kde-plasma/plasma-meta-5.14.5::gentoo[networkmanager]
+# required by @selected
+# required by @world (argument)
+>=virtual/pam-0-r1 abi_x86_32
+# required by virtual/pam-0-r1::gentoo
+# required by sys-apps/systemd-239-r3::gentoo[pam]
+# required by virtual/udev-217::gentoo
+# required by net-wireless/bluez-5.50-r1::gentoo[udev]
+# required by net-misc/networkmanager-1.14.4::gentoo[bluetooth]
+# required by kde-plasma/plasma-meta-5.14.5::gentoo[networkmanager]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/pam-1.3.0-r2 abi_x86_32
+# required by sys-libs/pam-1.3.0-r2::gentoo[cracklib]
+# required by sys-apps/util-linux-2.33-r1::gentoo[pam]
+# required by sys-fs/lvm2-2.02.145-r2::gentoo
+# required by app-emulation/virtualbox-bin-6.0.2.128162::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/cracklib-2.9.6-r1 abi_x86_32
+# required by sys-libs/pam-1.3.0-r2::gentoo
+# required by sys-apps/util-linux-2.33-r1::gentoo[pam]
+# required by sys-fs/lvm2-2.02.145-r2::gentoo
+# required by app-emulation/virtualbox-bin-6.0.2.128162::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/flex-2.6.4-r1 abi_x86_32

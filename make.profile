@@ -1,1 +1,1 @@
-../../usr/portage/profiles/default/linux/amd64/17.0/desktop/plasma
+../../usr/portage/profiles/default/linux/amd64/17.0/desktop/plasma/systemd
