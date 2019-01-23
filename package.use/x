@@ -1,0 +1,200 @@
+>=app-crypt/pinentry-1.1.0-r2 gnome-keyring
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
+>=dev-util/astyle-3.1-r2 java
+>=media-libs/harfbuzz-2.0.2 icu
+>=media-libs/libvpx-1.7.0 postproc
+>=media-plugins/gst-plugins-meta-1.14.1 v4l
+>=net-libs/nodejs-8.12.0 inspector
+>=net-libs/telepathy-qt-0.9.7-r1 farstream
+>=sys-apps/hwids-20171003 udev
+>=sys-apps/util-linux-2.32-r4 static-libs
+>=sys-fs/eudev-3.2.5 abi_x86_32
+>=www-plugins/adobe-flash-31.0.0.122 abi_x86_32
+>=x11-libs/gtk+-2.24.32:2 abi_x86_32
+>=x11-libs/libdrm-2.4.93 abi_x86_32
+app-accessibility/at-spi2-atk abi_x86_32
+app-admin/sudo offensive
+app-arch/bzip2 abi_x86_32
+app-arch/p7zip kde pch wxwidgets rar
+app-arch/xz-utils abi_x86_32
+app-cdr/brasero css -introspection libburn mp3 -nautilus -playlist -test -tracker
+app-editors/emacs X acl alsa dbus gif gpm -gtk imagemagick inotify jpeg lcms png ssl svg threads tiff xpm zlib -Xaw3d -athena -dynamic-loading -games -gconf -gfile -gsettings -gtk2 -gzip-el -kerberos -libxml2 -livecd -m17n-lib -mailutils -motif sound -source -systemd -toolkit-scroll-bars -wide-int xft -xwidgets
+app-editors/vim X acl gpm nls python -cscope -debug lua -luajit -minimal -perl -racket ruby -tcl -terminal -vim-pager
+app-editors/xemacs X berkdb gdbm gif gpm jpeg ldap png tiff -Xaw3d -athena -canna -dnd -eolconv -freewnn -motif -mule -nas -neXt -pop -postgres -xface -xim
+app-emulation/qemu lzo nfs sdl2 ssh virtfs
+app-portage/layman git sqlite squashfs -bazaar -cvs -darcs gpg mercurial -subversion sync-plugin-portage -test
+dev-games/godot freetype openssl png pulseaudio vorbis xml -llvm
+dev-games/ogre boost freeimage opengl threads zip cg doc -double-precision examples -gl3plus gles2 gles3 ois -poco -profile -tbb tools
+dev-games/tiled examples
+dev-lang/orc abi_x86_32
+dev-lang/python gdbm ipv6 ncurses readline ssl (threads) xml -build examples -hardened -libressl sqlite -test tk -wininst
+dev-libs/atk introspection abi_x86_32
+dev-libs/boost context icu nls python threads -debug -doc -mpi -static-libs tools
+dev-libs/expat abi_x86_32
+dev-libs/fribidi abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/icu abi_x86_32
+dev-libs/libaio abi_x86_32
+dev-libs/libcroco abi_x86_32
+dev-libs/libdbusmenu gtk3
+dev-libs/libgcrypt abi_x86_32
+dev-libs/libgpg-error abi_x86_32
+dev-libs/libgudev abi_x86_32
+dev-libs/libpcre abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/libxslt abi_x86_32
+dev-libs/lzo abi_x86_32
+dev-libs/nettle gmp abi_x86_32
+dev-libs/openssl abi_x86_32 -bindist
+dev-libs/wayland abi_x86_32 
+dev-python/PyQt5 bluetooth dbus declarative gui network opengl printsupport svg webkit widgets -debug -designer -examples multimedia -positioning sensors -serialport sql -testlib webchannel webengine websockets x11extras xmlpatterns
+dev-python/pypy-bin gdbm jit sqlite -libressl -test tk 
+dev-python/pypy3-bin gdbm jit sqlite -libressl -test tk 
+dev-python/sphinx latex
+dev-util/electron cups proprietary-codecs pulseaudio system-ffmpeg tcmalloc -custom-cflags -gconf -gnome-keyring -kerberos -lto -pic -test
+dev-util/kdevelop gdbui handbook plasma qmake hex webkit
+dev-util/pkgconfig abi_x86_32
+dev-util/unity-editor android darkskin -facebook -ios -mac webgl windows
+dev-vcs/git blksha1 curl gpg iconv nls pcre pcre-jit perl python threads tk webdav -cgi -cvs -doc -emacs -gnome-keyring -highlight -libressl -mediawiki -mediawiki-experimental -subversion -test -xinetd"
+games-emulation/dolphin alsa bluetooth evdev ffmpeg pch pulseaudio qt5 sdl wxwidgets -ao -doc -egl -libav -log -lto -openal -portaudio -profile -upnp
+games-emulation/pcsxr -alsa -ffmpeg -nls opengl pulseaudio -sdl -cdio -libav -openal -oss
+games-emulation/qmc2 -phonon
+gnome-base/gvfs cdda gtk http udev udisks zeroconf -afp archive -bluray -elogind fuse -gnome-keyring -gnome-online-accounts -google -gphoto2 -ios -mtp -nfs -samba -systemd -test
+gnome-base/librsvg abi_x86_32
+kde-apps/dolphin handbook semantic-desktop thumbnail
+kde-apps/k3b dvd encode ffmpeg flac handbook mad mp3 taglib vorbis -debug -emovix -libav musepack -sndfile -sox -test -vcd webkit
+kde-apps/kde-apps-meta sdk -accessibility -pim
+kde-apps/kdenlive handbook semantic-desktop v4l freesound jogshuttle
+kde-apps/okular chm djvu epub markdown mobi mobile
+kde-plasma/plasma-meta bluetooth browser-integration crypt display-manager gtk handbook networkmanager pam pulseaudio sddm sdk wallpapers grub -legacy-systray -plymout
+media-gfx/blender bullet dds elbeem ffmpeg game-engine nls openexr openmp* sdl tiff collada player llvm collada
+media-gfx/gimp alsa bzip2 dbus exif jpeg lcms mng pdf png python svg tiff udev -aalib -curl -debug -doc -gnome -jpeg2k -postscript -smp -test -wmf xpm
+media-gfx/graphite2 abi_x86_32
+media-gfx/inkscape cdr dbus dia exif imagemagick jpeg lcms nls openmp spell visio -gnome -inkjar latex -postscript -static-libs -wpg
+media-gfx/krita gif gsl jpeg pdf raw tiff color-management fftw openexr qtmedia vc
+media-gfx/pstoedit plotutils
+media-libs/alsa-lib abi_x86_32
+media-libs/audiofile abi_x86_32
+media-libs/flac abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/glu abi_x86_32
+media-libs/gst-plugins-base abi_x86_32
+media-libs/gst-plugins-good abi_x86_32
+media-libs/gstreamer abi_x86_32
+media-libs/harfbuzz glib truetype abi_x86_32
+media-libs/lcms abi_x86_32
+media-libs/libdvdcss abi_x86_32
+media-libs/libdvdread abi_x86_32
+media-libs/libepoxy X abi_x86_32
+media-libs/libjpeg-turbo abi_x86_32
+media-libs/libogg abi_x86_32
+media-libs/libpng abi_x86_32
+media-libs/libsdl abi_x86_32
+media-libs/libsdl2 X alsa dbus joystick opengl pulseaudio sound threads udev video xinerama -gles haptic -kms -libsamplerate -nas -oss -static-libs -tslib -wayland -xscreensaver
+media-libs/libsndfile abi_x86_32
+media-libs/libvorbis abi_x86_32
+media-libs/libwebp abi_x86_32
+media-libs/mesa classic dri3 egl gallium gbm gles2 llvm nptl osmesa vdpau wayland lm_sensors -bindist -d3d9 -debug -gles1 -opencl -pax_kernel -pic -unwind -vaapi -valgrind -vulkan -xa -xvmc
+media-libs/mlt ffmpeg gtk kdenlive melt opengl python qt5 sdl xml -compressed-lumas -debug -fftw frei0r -jack -libav -libsamplerate -lua -rtaudio -ruby -xine
+media-libs/opus abi_x86_32
+media-libs/sdl-mixer flac mad mp3 vorbis wav fluidsynth midi -mikmod -mod -modplug -playtools -smpeg -static-libs timidity
+media-libs/tiff abi_x86_32
+media-libs/x264 interlaced threads -10bit -opencl -pic -static-libs
+media-libs/x265 abi_x86_32
+media-libs/xvid abi_x86_32
+media-plugins/alsa-plugins pulseaudio abi_x86_32
+media-plugins/audacious-plugins aac adplug alsa cdda ffmpeg flac -gtk lame -libnotify mp3 nls pulseaudio qt5 sdl vorbis -ampache -aosd -bs2b -cue -fluidsynth -gme -gnome -gtk3 -hotkeys -http -jack -libav -libsamplerate -lirc -mms -modplug -scrobbler -sid -sndfile -soxr -speedpitch -wavpack
+media-sound/audacious -gtk nls qt5 -gtk3
+media-sound/audacity alsa ffmpeg flac ladspa lame lv2 mad midi nls portmixer soundtouch twolame vorbis vst -doc id3tag -jack -libav -sbsms -vamp
+media-sound/clementine cdda dbus pulseaudio udisks googledrive lastfm moodbar
+media-sound/hydrogen alsa archive pulseaudio -jack ladspa -lash -osc -oss -portaudio portmidi
+media-sound/lame abi_x86_32
+media-sound/pulseaudio abi_x86_32
+media-sound/twolame abi_x86_32
+media-video/ffmpeg abi_x86_32 X alsa bzip2 cpudetection frei0r libv4l encode fdk fontconfig gpl hardcoded-tables iconv lzma mp3 network nvenc opengl opus postproc pulseaudio sdl svg theora threads truetype twolame v4l vdpau vorbis webp x264 x265 xcb xvid zlib
+media-video/mpv X alsa cdda cli dvd egl encode iconv jpeg lcms libass lua luajit opengl pulseaudio uchardet v4l vdpau xv zlib
+media-video/vlc X a52 alsa dbus dts dvbpsi dvd encode ffmpeg flac fontconfig gcrypt gstreamer jpeg libnotify libsamplerate matroska mp3 mpeg ncurses ogg opus png pulseaudio qt5 ssl svg theora truetype twolame udev v4l vdpau vorbis x264 x265 xml zeroconf
+net-dns/avahi abi_x86_32
+net-dns/libidn2 abi_x86_32
+net-fs/samba client
+net-libs/gnutls abi_x86_32
+net-libs/libasyncns abi_x86_32
+net-nds/openldap abi_x86_32
+net-print/cups abi_x86_32
+sci-electronics/kicad python -debug doc examples github -i18n -libressl -minimal
+sys-apps/attr abi_x86_32
+sys-apps/busybox -pam static
+sys-apps/dbus abi_x86_32
+sys-apps/lm_sensors contrib sensord abi_x86_32
+sys-apps/tcp-wrappers abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-boot/grub:2 mount
+sys-devel/gettext abi_x86_32
+sys-fs/squashfs-tools xattr xz lz4 lzma lzo
+sys-kernel/ck-sources -build -deblob experimental -symlink
+sys-kernel/gentoo-sources -build experimental -symlink
+sys-libs/binutils-libs abi_x86_32
+sys-libs/gdbm abi_x86_32
+sys-libs/gpm abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-libs/ncurses abi_x86_32
+sys-libs/zlib abi_x86_32
+virtual/glu abi_x86_32
+virtual/jpeg abi_x86_32
+virtual/libffi abi_x86_32
+virtual/libgudev abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libintl abi_x86_32
+virtual/libudev abi_x86_32
+virtual/opengl abi_x86_32
+virtual/pkgconfig abi_x86_32
+www-client/chromium widevine jumbo-build system-ffmpeg system-icu system-libvpx
+www-client/opera -gtk multilib
+x11-base/xorg-server glamor ipv6 udev xorg -debug -dmx -doc -kdrive -libressl -minimal -static-libs -suid -systemd -unwind -wayland -xcsecurity -xephyr xnest -xvfb
+x11-drivers/nvidia-drivers -abi_x86_32
+x11-libs/cairo svg X abi_x86_32
+x11-libs/gtk+ X abi_x86_32
+x11-libs/libICE abi_x86_32
+x11-libs/libSM abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXft abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+x11-libs/libXtst abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libdrm libkms
+x11-libs/libnotify abi_x86_32
+x11-libs/pango introspection abi_x86_32
+x11-libs/pixman abi_x86_32
+net-p2p/transmission -gtk qt5 -libressl -lightweight -systemd -xfs
+net-dns/bind berkdb caps ipv6 ldap python ssl threads xml zlib dlz -dnstap -doc -filter-aaaa -fixed-rrset -geoip -gost -gssapi -idn -json -libressl -lmdb -mysql -nslint -odbc -postgres -rpz -static-libs -urandom
+media-libs/a52dec abi_x86_32 
+media-libs/libtheora abi_x86_32
+kde-apps/kio-extras activities handbook man phonon sftp -debug mtp -openexr -samba -taglib -test
+gnome-base/gvfs archive cdda fuse gtk http (policykit) udev udisks zeroconf -afp -bluray -elogind -gnome-keyring -gnome-online-accounts -google -gphoto2 -ios mtp -nfs -samba -systemd -test
+kde-misc/kdeconnect bluetooth handbook app -debug mousepad (-selinux) -test -wayland
+media-libs/opus ambisonics custom-modes -doc -static-libs
+media-sound/vorbis-tools speex 
+dev-python/ipython qt5 smp wxwidgets -doc -examples -matplotlib -nbconvert notebook -test
+media-libs/libdca abi_x86_32
+media-sound/lmms fluidsynth soundio libgig stk vst
+app-text/asciidoc python_single_target_python2_7
+www-client/firefox dbus gmp-autoupdate jack pulseaudio screenshot startup-notification -bindist clang -custom-cflags -custom-optimization -debug -eme-free -geckodriver -hardened -hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -test wifi
+kde-apps/kdepim-addons -debug examples importwizard -test
+kde-apps/akonadi -mysql sqlite xml -debug designer -postgres -test tools
+lxqt-base/lxqt-meta about filemanager nls sddm admin lightdm lximage -minimal powermanagement processviewer screenshot ssh-askpass sudo terminal
+lxqt-base/lxqt-panel alsa desktopswitch directorymenu kbindicator mainmenu mount pulseaudio quicklaunch sensors showdesktop spacer taskbar tray volume worldclock clock colorpicker cpuload dom networkmonitor statusnotifier sysstat
