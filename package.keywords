@@ -328,3 +328,7 @@ app-doc/zeal ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-libs/openssl-1.1.1a-r1 ~amd64
+# required by app-text/calibre-3.38.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/css-parser-1.0.4 ~amd64

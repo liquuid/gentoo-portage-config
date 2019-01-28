@@ -334,3 +334,44 @@ x11-libs/libvdpau abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=sys-devel/flex-2.6.4-r1 abi_x86_32
+# required by media-sound/gnome-music-3.24.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.24.2::gentoo[tracker]
+# required by gnome-base/gnome-3.24.2::gentoo[extras]
+# required by gnome (argument)
+>=media-plugins/grilo-plugins-0.3.7 tracker
+# required by media-video/totem-3.24.0::gentoo
+# required by gnome-base/gnome-core-apps-3.24.2::gentoo
+# required by gnome-base/gnome-3.24.2::gentoo
+# required by gnome (argument)
+>=media-libs/grilo-0.3.6 playlist
+# required by media-gfx/gnome-photos-3.24.6::gentoo
+# required by gnome-base/gnome-extra-apps-3.24.2::gentoo[tracker]
+# required by gnome-base/gnome-3.24.2::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.17.9-r1 gnome-online-accounts
+# required by media-gfx/gnome-photos-3.24.6::gentoo
+# required by gnome-base/gnome-extra-apps-3.24.2::gentoo[tracker]
+# required by gnome-base/gnome-3.24.2::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/gegl-0.3.26 jpeg2k raw
+# required by gnome-extra/gnome-user-share-3.18.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.24.2::gentoo[share]
+# required by gnome-base/gnome-3.24.2::gentoo[extras]
+# required by gnome (argument)
+>=www-servers/apache-2.4.34-r2 apache2_modules_auth_digest
+# required by net-misc/vinagre-3.22.0-r3::gentoo[zeroconf]
+# required by gnome-base/gnome-extra-apps-3.24.2::gentoo
+# required by gnome-base/gnome-3.24.2::gentoo[extras]
+# required by gnome (argument)
+>=net-dns/avahi-0.7-r1 gtk3
+# required by gnome-extra/gnome-contacts-3.22.1-r1::gentoo
+# required by gnome-base/gnome-core-apps-3.24.2::gentoo
+# required by gnome-base/gnome-3.24.2::gentoo
+# required by gnome (argument)
+>=dev-libs/folks-0.11.4 eds
+# required by dev-libs/folks-0.11.4::gentoo[eds]
+# required by gnome-extra/gnome-contacts-3.22.1-r1::gentoo
+# required by gnome-base/gnome-core-apps-3.24.2::gentoo
+# required by gnome-base/gnome-3.24.2::gentoo
+# required by gnome (argument)
+>=gnome-extra/evolution-data-server-3.24.7 vala
