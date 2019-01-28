@@ -34,8 +34,8 @@ app-crypt/qca ~amd64
 app-editors/atom ~amd64
 app-editors/atom-bin ~amd64
 app-editors/visual-studio-code ~amd64
-app-emulation/vagrant ~amd64
-app-emulation/virtualbox-bin ~amd64
+#app-emulation/vagrant ~amd64
+#app-emulation/virtualbox-bin ~amd64
 app-portage/kuroo ~amd64
 app-text/podofo ~amd64
 dev-db/mongodb ~amd64

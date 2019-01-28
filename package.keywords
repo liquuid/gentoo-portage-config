@@ -176,13 +176,13 @@ app-doc/zeal ~amd64
 # required by app-emulation/virtualbox-bin-6.0.0.127566::gentoo
 # required by @selected
 # required by @world (argument)
-=app-emulation/virtualbox-modules-6.0.0 ~amd64
+#=app-emulation/virtualbox-modules-6.0.0 ~amd64
 # required by grive (argument)
 =net-misc/grive-0.5.1_pre20171005 ~amd64
 # required by app-emulation/virtualbox-bin-6.0.2.128162::gentoo
 # required by @selected
 # required by @world (argument)
-=app-emulation/virtualbox-modules-6.0.2 ~amd64
+#=app-emulation/virtualbox-modules-6.0.2 ~amd64
 # required by @__auto_slot_operator_replace_installed__ (argument)
 =dev-util/radare2-3.2.1 ~amd64
 # required by dev-ruby/rdoc-6.1.1::gentoo
@@ -332,3 +332,8 @@ app-doc/zeal ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-python/css-parser-1.0.4 ~amd64
+# required by dev-python/msgpack-0.5.6::gentoo[python_targets_python3_6,native-extensions,-python_targets_python3_4,python_targets_python3_7,python_targets_python2_7,-python_targets_python3_5]
+# required by app-text/calibre-3.38.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/cython-0.29.3 ~amd64
