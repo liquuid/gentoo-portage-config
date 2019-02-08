@@ -97,3 +97,6 @@ www-client/firefox ~amd64
 x11-drivers/nvidia-drivers ~amd64
 x11-libs/libX11 ~amd64
 x11-wm/qtile ~amd64
+dev-util/monodevelop ~amd64
+dev-lang/mono ~amd64
+dev-dotnet/gnome-sharp ~amd64
