@@ -5,7 +5,7 @@
 
 GENTOO_MIRRORS="http://gentoo.c3sl.ufpr.br/ http://mirrors.evowise.com/gentoo/ http://lug.mtu.edu/gentoo/"
 
-COMMON_FLAGS="-O2 -pipe -march=znver1"
+COMMON_FLAGS="-O2 -pipe -march=znver1 -ftree-vectorize"
 #COMMON_FLAGS="-O2 -pipe -march=nehalem"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
@@ -24,6 +24,7 @@ CCACHE_DIR="/storage/misc/ccache"
 LC_MESSAGES=C
 
 MAKEOPTS="-j12"
+#MAKEOPTS="-j4"
 #CURL_SSL="libressl"
 USE="mtp opengl experimental lm_sensors sensors zsh-completion encode X \
      udev qt pulseaudio ogg vorbis opus x264 x265 icu kde \
@@ -31,7 +32,7 @@ USE="mtp opengl experimental lm_sensors sensors zsh-completion encode X \
      lame zeroconf xinerama webp imagemagick btrfs joystick \
      gstreamer v4l threads offensive git lzma bittorrent osmesa sdk \
      python ffmpeg sqlite nvenc jack clang -wayland xrandr gpm \
-     ruby_targets_ruby25 -curl_ssl_libressl -mysql systemd -policykit"
+     ruby_targets_ruby25 -curl_ssl_libressl -mysql systemd -mongo -mongodb"
 VIDEO_CARDS="nvidia"
 L10N="pt-BR en en-US"
 LINGUAS="pt_BR en en_US"
@@ -40,6 +41,7 @@ ACCEPT_LICENSE="*"
 INPUT_DEVICES="libinput keyboard mouse joystick wacom"
 CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
 QEMU_SOFTMMU_TARGETS="arm i386 ppc"
+QEMU_USER_TARGETS="arm x86_64"
 GRUB_PLATFORMS="efi-64 pc"
 RUBY_TARGETS="ruby25 ruby24 ruby26"
 PYTHON_TARGETS="python2_7 python3_6 python3_7"

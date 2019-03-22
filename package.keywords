@@ -4,7 +4,6 @@
 =dev-libs/spsdeclib-5.1-r1 ~amd64
 =dev-libs/tinyxml-2.6.2-r3 ~amd64
 =dev-python/PySDL2-0.9.6 ~amd64
-=dev-python/pypy-6.0.0 ~amd64
 =dev-util/clion-2018.2.4 ~amd64
 =dev-util/codeblocks-17.12-r301 ~amd64
 =dev-util/ninja-ide-9999 **
@@ -384,3 +383,115 @@ app-doc/zeal ~amd64
 # required by dev-util/monodevelop-6.0.0.4761::dotnet
 # required by monodevelop (argument)
 =dev-dotnet/referenceassemblies-pcl-4.6 ~amd64
+# required by sys-devel/clang-runtime-7.0.1::gentoo[compiler-rt]
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-sanitizers-7.0.1::gentoo[clang]
+=sys-libs/compiler-rt-7.0.1 ~amd64
+# required by sys-devel/clang-runtime-7.0.1::gentoo[openmp]
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-7.0.1::gentoo[clang]
+=sys-libs/libomp-7.0.1-r1 ~amd64
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-7.0.1::gentoo[clang]
+# required by sys-devel/clang-runtime-7.0.1::gentoo[compiler-rt]
+=sys-devel/llvm-7.0.1 ~amd64
+# required by dev-dotnet/dotnetcore-sdk-bin-2.2.103::dotnet
+# required by dev-dotnet/dotnetcore-sdk-bin (argument)
+=dev-util/lldb-7.0.1 ~amd64
+# required by sys-devel/clang-runtime-7.0.1::gentoo[sanitize,compiler-rt]
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-7.0.1::gentoo[clang]
+=sys-libs/compiler-rt-sanitizers-7.0.1 ~amd64
+# required by sys-devel/llvm-7.0.1::gentoo[gold]
+# required by sys-libs/compiler-rt-7.0.1::gentoo
+# required by sys-devel/clang-runtime-7.0.1::gentoo[compiler-rt]
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-sanitizers-7.0.1::gentoo[clang]
+=sys-devel/llvmgold-7 ~amd64
+# required by sys-devel/clang-7.0.1::gentoo
+# required by sys-libs/compiler-rt-7.0.1::gentoo[clang]
+=sys-devel/clang-runtime-7.0.1 ~amd64
+# required by dev-util/lldb-7.0.1::gentoo
+# required by dev-dotnet/dotnetcore-sdk-bin-2.2.103::dotnet
+# required by dev-dotnet/dotnetcore-sdk-bin (argument)
+=sys-devel/clang-7.0.1 ~amd64
+# required by kde-plasma/xdg-desktop-portal-kde-5.15.1::gentoo
+# required by kde-plasma/plasma-meta-5.15.1-r1::gentoo[desktop-portal]
+# required by @selected
+# required by @world (argument)
+=sys-apps/xdg-desktop-portal-1.2.0 ~amd64
+# required by dev-python/cryptography-2.2.2-r1::gentoo[python_targets_python2_7,python_targets_python3_6,-python_targets_python3_4,-python_targets_python3_5]
+# required by dev-python/urllib3-1.22::gentoo
+# required by app-admin/system-config-printer-1.5.11-r1::gentoo
+# required by gnome-base/gnome-control-center-3.24.4::gentoo[cups]
+# required by gnome-base/gnome-light-3.24.2::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/cffi-1.12.1 ~amd64
+# required by dev-python/translate-toolkit-2.0.0::gentoo
+# required by kde-apps/lokalize-18.12.2::kde
+# required by @selected
+# required by @world (argument)
+=dev-python/six-1.12.0 ~amd64
+# required by dev-python/pycparser-2.19::gentoo
+# required by dev-python/cffi-1.12.1::gentoo
+# required by dev-python/cairocffi-0.9.0::gentoo[python_targets_python3_7,-python_targets_python3_4,python_targets_python2_7,python_targets_python3_6,-python_targets_python3_5]
+# required by x11-wm/qtile-0.13.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/ply-3.11 ~amd64
+# required by x11-wm/qtile-0.13.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/xcffib-0.7.0 ~amd64
+# required by dev-python/cffi-1.12.1::gentoo
+# required by dev-python/cairocffi-0.9.0::gentoo[python_targets_python3_7,-python_targets_python3_4,python_targets_python2_7,python_targets_python3_6,-python_targets_python3_5]
+# required by x11-wm/qtile-0.13.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pycparser-2.19 ~amd64
+# required by x11-wm/qtile-0.13.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/cairocffi-0.9.0 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-video/obs-studio-23.0.1 ~amd64
+# required by app-text/calibre-3.40.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/markdown-3.0.1 ~amd64
+# required by app-text/calibre-3.40.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/apsw-3.25.2_p1 ~amd64
+# required by app-text/calibre-3.40.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pygments-2.3.1 ~amd64
+# required by apparmor (argument)
+=sys-apps/apparmor-2.13.2 ~amd64
+# required by sys-apps/apparmor-2.13.2::gentoo
+# required by apparmor (argument)
+=sys-libs/libapparmor-2.13.2 ~amd64
+# required by dev-libs/redland-1.0.17-r1::gentoo[sqlite]
+# required by app-office/libreoffice-bin-6.1.5.2::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-db/sqlite-3.27.2 ~amd64
+# required by gnome-extra/evolution-data-server-3.24.7::gentoo
+# required by gnome-base/gnome-shell-3.24.3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.43 ~amd64
+# required by www-client/firefox-66.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-util/cbindgen-0.8.2 ~amd64
+# required by www-client/firefox-66.0-r1::gentoo[system-av1]
+# required by @selected
+# required by @world (argument)
+=media-libs/dav1d-0.2.1 ~amd64
+# required by www-client/firefox-66.0-r1::gentoo[system-av1]
+# required by @selected
+# required by @world (argument)
+=media-libs/libaom-1.0.0-r1 ~amd64

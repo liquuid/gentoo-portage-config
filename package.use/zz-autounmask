@@ -375,3 +375,12 @@ x11-libs/libvdpau abi_x86_32
 # required by gnome-base/gnome-3.24.2::gentoo
 # required by gnome (argument)
 >=gnome-extra/evolution-data-server-3.24.7 vala
+# 
+>=kde-plasma/breeze-gtk-5.15.0 -python_targets_python3_7
+# required by dev-util/android-studio-3.2.1.0.181.5056338::gentoo
+# required by android-studio (argument)
+>=sys-libs/ncurses-5.9-r101:5 tinfo
+# required by media-gfx/hugin-2018.0.0::gentoo
+# required by media-gfx/digikam-6.0.0::gentoo[panorama]
+# required by digikam (argument)
+>=media-libs/vigra-1.11.1 openexr

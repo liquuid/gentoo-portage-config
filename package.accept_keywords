@@ -48,8 +48,6 @@ dev-lang/python ~amd64
 dev-libs/cyrus-sasl ~amd64
 dev-libs/wayland ~amd64
 dev-python/certifi ~amd64
-dev-python/pypy-bin ~amd64
-dev-python/pypy3-bin ~amd64
 dev-python/setuptools ~amd64
 dev-ruby/abstract ~amd64
 dev-ruby/bcrypt_pbkdf ~amd64
@@ -100,3 +98,7 @@ x11-wm/qtile ~amd64
 dev-util/monodevelop ~amd64
 dev-lang/mono ~amd64
 dev-dotnet/gnome-sharp ~amd64
+x11-misc/rofi ~amd64
+dev-dotnet/dotnetcore-sdk-bin ~amd64
+www-client/opera ~amd64
+sys-apps/lsd ~amd64
