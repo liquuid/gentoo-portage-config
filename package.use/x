@@ -70,7 +70,7 @@ kde-apps/k3b dvd encode ffmpeg flac handbook mad mp3 taglib vorbis -debug -emovi
 kde-apps/kde-apps-meta sdk -accessibility -pim
 kde-apps/kdenlive handbook semantic-desktop v4l freesound jogshuttle
 kde-apps/okular chm djvu epub markdown mobi mobile
-kde-plasma/plasma-meta bluetooth browser-integration crypt display-manager gtk handbook networkmanager pam pulseaudio sddm sdk wallpapers grub -legacy-systray -plymout
+kde-plasma/plasma-meta bluetooth browser-integration crypt display-manager gtk handbook networkmanager pam pulseaudio sddm sdk wallpapers -legacy-systray -plymout
 media-gfx/blender bullet dds elbeem ffmpeg game-engine nls openexr openmp* sdl tiff collada player llvm collada
 media-gfx/gimp alsa bzip2 dbus exif jpeg lcms mng pdf png python svg tiff udev -aalib -curl -debug -doc -gnome -jpeg2k -postscript -smp -test -wmf xpm
 media-gfx/graphite2 abi_x86_32

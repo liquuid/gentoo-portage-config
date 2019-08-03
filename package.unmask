@@ -53,3 +53,6 @@
 # /usr/portage/profiles/package.mask:
 # Lars Wendler <polynomial-c@gentoo.org> (28 Dec 2018)
 # Masked while being tested and reverse deps aren't fully compatible
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask:
+=media-plugins/gst-plugins-libav-1.14.4.4.1.3_p20190329

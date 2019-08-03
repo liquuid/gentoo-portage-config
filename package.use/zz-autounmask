@@ -384,3 +384,14 @@ x11-libs/libvdpau abi_x86_32
 # required by media-gfx/digikam-6.0.0::gentoo[panorama]
 # required by digikam (argument)
 >=media-libs/vigra-1.11.1 openexr
+# required by dev-db/mysql-workbench-8.0.14::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/libssh-0.8.6 server
+# required by dev-lang/php-7.2.16::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-eselect/eselect-php-0.9.4-r5 fpm
+# required by www-client/firefox-60.7.0::gentoo[system-libvpx]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-libs/libvpx-1.5.0 postproc
