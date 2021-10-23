@@ -8,32 +8,17 @@ CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
 
-ACCEPT_LICENSE="*"
-
 MAKEOPTS="-j12"
 EMERGE_DEFAULT_OPTS="--keep-going=y --autounmask-write=y --jobs=4"
-PORTAGE_NICENESS=19
-L10N="pt-BR"
-
+PORTAGE_NICENESS=19 
 
 CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
-
-
-INPUT_DEVICES="libinput joystick wacom"
-VIDEO_CARDS="amdgpu fbdev vesa radeon radeonsi"
 
 # NOTE: This stage was built with the bindist Use flag enabled
 PORTDIR="/var/db/repos/gentoo"
 DISTDIR="/var/cache/distfiles"
 PKGDIR="/var/cache/binpkgs"
 
-
-FEATURES="ccache"
-CCACHE_DIR="/var/cache/ccache"
-
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C
-GENTOO_MIRRORS="https://gentoo.c3sl.ufpr.br/"
-USE="pulseaudio wayland gles2 v4l webp matroska modplug mtp opus samba \
-     theora twolame vaapi vdpau x265 x264 faad vulkan frei0r opencl"
